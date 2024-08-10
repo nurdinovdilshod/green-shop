@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/green_shop
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+twilio:
+  account:
+    sid: AC9f3e633fc9806712738add3da4b71620
+  auth:
+    token: 7220e252f70a56b5b366a3fa9cda2ec8
+  phone:
+    number: +12513579584
+
+#minio:
+#  url: http://localhost:9000
+#  accessKey: laVK864WioL9yrOoDTvd
+#  secretKey: t4wSNClkcvM2O5qBBAhFfzKeb37uje6kLLwa7wjK
+#  bucket: green_shop

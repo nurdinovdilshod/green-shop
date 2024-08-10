@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+#  cache:
+#    type: redis
+
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
